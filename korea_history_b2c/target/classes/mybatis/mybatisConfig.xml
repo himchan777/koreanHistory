@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+<!-- 기존 Mibytis를 사용할때 쓰는 타입 -->
+<!-- 	<typeAliases> -->
+<!-- 		<typeAlias alias="UserVO" type="com.kh.b2c.VO.UserVO" /> -->
+<!-- 	</typeAliases> -->
+	
+<!-- 	Interface Mibytis -->
+	<typeAliases>
+		<typeAlias alias="UserInfoVO" type="com.kh.b2c.db.UserInfoVO" />
+		<!-- Remember-me Token -->
+<!-- 		<typeAlias alias="UserRememberMeVO" type="hs.spring.hsweb.mapper.vo.user.UserRememberMeVO" /> -->
+	</typeAliases>
+	
+
+</configuration>
